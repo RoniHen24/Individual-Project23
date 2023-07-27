@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/favorites.css">
+    <title>Favorites</title>
+    <dev id="head">
+    <h1>Favorites</h1>
+    <a href="search"><button>Home</button></a>
+    </dev>
+</head>
+<body>
+    <center>
+    <div class="bar">
+    </div>
+    </center>
+
+    <div class="info" id="favoritesInfo">
+        {% for title, movieinfo in favorites_info.items() %}
+            <hr>
+            <h2 id="title">{{ title }}</h2>
+            <h2 id="plot">{{ movieinfo['plot'] }}</h2>
+            <div id="six">
+                <h2 id="rating">rating : {{ movieinfo['imdbrating'] }}</h2>
+                <h2 id="language"> languages: {{ movieinfo['language'] }}</h2>
+                <h2 id="year"> year : {{ movieinfo['year'] }}</h2>
+                <h2 id="director"> director : {{ movieinfo['director'] }}</h2>
+                <h2 id="genre"> genre : {{ movieinfo['genre'] }}</h2>
+                <h2 id="country"> country : {{ movieinfo['country'] }}</h2>
+            </div>
+            <h2 id="actors"> actors : {{ movieinfo['actors'] }}</h2>
+            <hr>
+        {% endfor %}
+    </div>
+</body>
+<script src="static/script.js"></script>
+</html>

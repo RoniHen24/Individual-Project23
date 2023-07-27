@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html{
+    background-color: rgb(20, 20, 20);
+    font-family: 'Bebas Neue', sans-serif;
+    size: 100%;
+    color: rgb(211, 211, 211);
+}
+
+#six{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+#head{
+    font-size: 3.5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    width: 201.75vh;
+    margin: auto;
+    color: red;
+}
+
+button{
+    position: relative  ;
+    padding: 1.75vh;
+    width: 30%;
+    height: 50%;
+    top: 4.38vh;
+    left: 70.17vh;
+    border-width:3px ;
+    background-color: lightgrey;
+    border-color: black;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    background-color: rgb(171, 171, 171);
+    border-color: rgb(215, 215, 215);
+}
+
+#favoritesInfo{
+    width: 1150px;
+    margin:auto
+}
+
+#title{
+    color: red;
+}

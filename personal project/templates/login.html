@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="static/login.css">
+</head>
+<body>
+    <center>
+    <div class="interface">
+    <form method="post" action="/">
+
+        <div>
+            <label>Email address</label>
+            <div>
+                <input id="logemail" type="email"  name="email" id="emailStr" required>
+            </div>
+        </div>
+
+        <div>
+            <label class="passlog">Password</label>
+            <div class="input-group">
+                <input id="logpass" type="password"  name="password" minlength="8" required>
+            </div>
+        </div>
+
+        <input class= "inbutton" type="submit" value="Login"/>
+
+    </form>
+    <br>
+    <a href="/signup">don't have an account yet?</a>
+</center>
+</div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html{
+    background-color: rgb(20, 20, 20);
+    font-family: 'Bebas Neue', sans-serif;
+    size: 100%;
+    color: rgb(211, 211, 211);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+
+  #searchbar{
+    position: relative  ;
+    top: 11.4vh;
+    font-size: 2.7vh;
+    width: 60%; 
+    padding: 2.15vh 2vh;
+    border-radius: 6px;
+    border-width: 1.5px;
+    box-sizing: border-box
+}
+
+#searchbutton{
+    position: relative;
+    top: 11.8vh;
+    width: 10%;
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+    border-width:3px ;
+    border-left: 0px;
+    background-color: red;
+    border-color: black;
+    font-family: 'Bebas Neue', sans-serif;  
+    font-size: 20px;
+}
+
+#searchbutton:hover{
+    background-color: rgb(171, 171, 171);
+    border-color: rgb(215, 215, 215);
+}
+
+a{
+    position: relative;
+    right: 7vh;
+    top: 11.7vh;
+    width: 10%;
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-width:1vh ;
+    border-right: 0px;
+    background-color: red;
+    border-color: black;
+    font-family: 'Bebas Neue', sans-serif;  
+    font-size: 3.6vh;
+    color: black;
+    text-decoration: none;
+    gap: 10px;
+}
+
+a:hover{
+    background-color: rgb(171, 171, 171);
+    border-color: rgb(215, 215, 215);
+}
+
+
+
+#poster{
+    position: relative;
+    left: 5vh;
+    top: 19vh;
+}
+
+#title{
+    position: relative;
+    left: 61.4vh;
+    color: red;
+    font-size: 7vh;
+    bottom: 49.1vh;
+}
+
+#plot{
+    position: relative;
+    width: 158vh;
+    height: 17.5vh;
+    left: 50vh;
+    bottom: 52.6vh  ;
+}
+
+#language{
+    position: relative;
+    left: 130vh;
+    bottom: 61.4vh;
+}
+#rating{
+    position: relative;
+    left: 50vh;
+    bottom: 52.6vh;
+}
+#year{
+    position: relative;
+    left: 50vh;
+    bottom: 63.1vh;
+}
+#director{
+    position: relative;
+    left: 130vh;
+    bottom: 71.9vh;
+}
+#genre{
+    position: relative;
+    left: 50vh;
+    bottom: 73.7vh;
+}
+#country{
+        position: relative;
+        left: 130vh;
+        bottom: 82.45vh;
+    }
+#actors{
+    width: 158vh;
+    position: relative;
+    left: 50vh;
+    bottom: 82.45vh;
+}
+
+#add{
+    position: relative;
+    width: 8.77vh;
+    height: 8.77vh;
+    border-radius: 4.38vh;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Eo_circle_red_white_heart.svg/1024px-Eo_circle_red_white_heart.svg.png");
+    background-size: cover;
+    left: 50vh;
+    bottom: 148.2vh;
+}
+
+#add:hover{
+    background-color: rgb(171, 171, 171);
+    border-color: rgb(215, 215, 215);
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/search.css">
+    <title>home</title>
+</head>
+<body>
+    <center>
+    <div class="bar">
+
+        <form id="movieform" autocomplete="off" method="POST" action="/search">
+        <a href="/">Sign Out</a>
+        <a href="/favorites" >favorites</a>
+        <input id= 'searchbar' type="text" name="movie" placeholder="Enter a Movie...">
+        <input id="searchbutton" type="submit" value="Search">
+        
+    </form>
+    </div>
+    </center>
+    <div class="info" id="movieInfo">
+        {% if movieinfo %}
+            <h2 id="poster"><img src="" width="230px" height="346px" ></h2>
+            <h2 id="title"> {{ movieinfo['title'] }}</h2>
+            <h2 id="plot">plot  : {{ movieinfo['plot'] }}</h2>
+            <h2 id="rating">rating : {{ movieinfo['imdbrating'] }}</h2>
+            <h2 id="language"> languages: {{ movieinfo['language'] }}</h2>
+            <h2 id="year"> year : {{ movieinfo['year'] }}</h2>
+            <h2 id="director"> director : {{ movieinfo['director'] }}</h2>
+            <h2 id="genre"> genre : {{movieinfo['genre'] }}</h2>
+            <h2 id="country"> country : {{  movieinfo['country'] }}</h2>
+            <h2 id="actors"> actrors : {{ movieinfo['actors'] }}</h2>
+            <form method="POST" action="/add_to_favorites">
+                <input type="hidden" name="movie_title" value="{{ movieinfo['title'] }}">
+                <input type="hidden" name="movie_imdb_rating" value="{{ movieinfo['imdbrating'] }}">
+                <input type="hidden" name="movie_plot" value="{{ movieinfo['plot'] }}">
+                <input type="hidden" name="movie_language" value="{{ movieinfo['language'] }}">
+                <input type="hidden" name="movie_actors" value="{{ movieinfo['actors'] }}">
+                <input type="hidden" name="movie_country" value="{{ movieinfo['country'] }}">
+                <input type="hidden" name="movie_genre" value="{{ movieinfo['genre'] }}">
+                <input type="hidden" name="movie_director" value="{{ movieinfo['director'] }}">
+                <input type="hidden" name="movie_year" value="{{ movieinfo['year'] }}">
+                <button id="add" type="submit"></button>
+            </form>
+        </div>
+        {% endif %}
+</body>
+<script src="static/script.js"></script>
+</html>
