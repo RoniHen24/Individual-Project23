@@ -49,35 +49,39 @@ label{
 
 
 #one{
-    right: 28%;
-    top: 30px;
-    font-size: 20px;
+    position: relative;
+    right: 12vw;
+    top: 5vh;
+    font-size: 3.6vh;
 }
 
 #two{
-    right: 31%;
-    top: 35px;
-    font-size: 20px;
+    position: relative;
+    right: 12.7vw;
+    top: 6vh;
+    font-size: 3.6vh;
 }
 
 #three{
-    right: 32%;
-    top: 40px;
-    font-size: 20px;
+    position: relative;
+    right: 12.8vw;
+    top: 7vh;
+    font-size: 3.6vh;
 }
 
 #four{
-    right: 32%;
-    top: 45px;
+    position: relative;
+    right: 13vw;
+    top: 8vh;
     font-size: 20px;
 }
 
 #five{
     position: relative  ;
-    top: 25px;
-    font-size: 15px;
+    top: 5vh;
+    font-size: 2.7vh;
     width: 75%; 
-    padding: 12px 10px;
+    padding: 2.2vh 3vh;
     border-radius: 6px;
     border-width: 1.5px;
     margin: 8px 0;
@@ -86,10 +90,10 @@ label{
 
 #six{
     position: relative  ;
-    top: 30px;
-    font-size: 15px;
+    top: 6vh;
+    font-size: 2.7vh;
     width: 75%; 
-    padding: 12px 10px;
+    padding: 2.2vh 3vh;
     border-radius: 6px;
     border-width: 1.5px;
     margin: 8px 0;
@@ -98,10 +102,10 @@ label{
 
 #seven{
     position: relative  ;
-    top: 35px;
-    font-size: 15px;
+    top: 7vh;
+    font-size: 2.7vh;
     width: 75%; 
-    padding: 12px 10px;
+    padding: 2.2vh 3vh;
     border-radius: 6px;
     border-width: 1.5px;
     margin: 8px 0;
@@ -110,10 +114,10 @@ label{
 
 #eight{
     position: relative  ;
-    top: 40px;
-    font-size: 15px;
+    top: 8vh;
+    font-size: 2.7vh;
     width: 75%; 
-    padding: 12px 10px;
+    padding: 2.2vh 3vh;
     border-radius: 6px;
     border-width: 1.5px;
     margin: 8px 0;
@@ -123,6 +127,6 @@ label{
 a{
     position: relative;
     color: rgb(0, 0, 0);
-    bottom: 20px;
-    font-size: 20px;
+    bottom: 3vh;
+    font-size: 3.5vh;
 }
