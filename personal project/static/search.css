@@ -37,7 +37,7 @@ html, body {
     background-color: red;
     border-color: black;
     font-family: 'Bebas Neue', sans-serif;  
-    font-size: 20px;
+    font-size: 3.5vh;
 }
 
 #searchbutton:hover{
@@ -47,14 +47,14 @@ html, body {
 
 a{
     position: relative;
-    right: 7vh;
+    right: 3vw;
     top: 11.7vh;
     width: 10%;
     padding-top: 0.6%;
     padding-bottom: 0.6%;
-    padding-left: 5vh;
-    padding-right: 5vh;
-    border-width:1vh ;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border: width 0.4vw; ;
     border-right: 0px;
     background-color: red;
     border-color: black;
@@ -62,7 +62,7 @@ a{
     font-size: 3.6vh;
     color: black;
     text-decoration: none;
-    gap: 10px;
+    gap: 1vh;
 }
 
 a:hover{
@@ -74,13 +74,13 @@ a:hover{
 
 #poster{
     position: relative;
-    left: 5vh;
+    left: 2vw;
     top: 19vh;
 }
 
 #title{
     position: relative;
-    left: 61.4vh;
+    left: 27vw;
     color: red;
     font-size: 7vh;
     bottom: 49.1vh;
@@ -88,57 +88,57 @@ a:hover{
 
 #plot{
     position: relative;
-    width: 158vh;
+    width: 70vw;
     height: 17.5vh;
-    left: 50vh;
+    left: 22vw;
     bottom: 52.6vh  ;
 }
 
 #language{
     position: relative;
-    left: 130vh;
+    left: 57.2vw;
     bottom: 61.4vh;
 }
 #rating{
     position: relative;
-    left: 50vh;
+    left: 22vw;
     bottom: 52.6vh;
 }
 #year{
     position: relative;
-    left: 50vh;
+    left: 22vw;
     bottom: 63.1vh;
 }
 #director{
     position: relative;
-    left: 130vh;
+    left: 57.2vw;
     bottom: 71.9vh;
 }
 #genre{
     position: relative;
-    left: 50vh;
+    left: 22vw;
     bottom: 73.7vh;
 }
 #country{
         position: relative;
-        left: 130vh;
+        left: 57.2vw;
         bottom: 82.45vh;
     }
 #actors{
-    width: 158vh;
+    width: 70vw;
     position: relative;
-    left: 50vh;
+    left: 22vw;
     bottom: 82.45vh;
 }
 
 #add{
     position: relative;
-    width: 8.77vh;
-    height: 8.77vh;
+    width: 4vw;
+    height: 4vw;
     border-radius: 4.38vh;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Eo_circle_red_white_heart.svg/1024px-Eo_circle_red_white_heart.svg.png");
     background-size: cover;
-    left: 50vh;
+    left: 22vw;
     bottom: 148.2vh;
 }
 
