@@ -32,6 +32,8 @@ html, body {
     background-color: lightgrey;
     border-color: black;
     border-radius: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5vw;
 }
 
 .inbutton:hover{

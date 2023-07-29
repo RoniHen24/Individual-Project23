@@ -15,7 +15,7 @@ html{
     font-size: 3.5vh;
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    width: 201.75vh;
+    width: 95vw;
     margin: auto;
     color: red;
 }
@@ -31,6 +31,8 @@ button{
     background-color: lightgrey;
     border-color: black;
     border-radius: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2vw;
 
 }
 
@@ -40,7 +42,7 @@ button:hover{
 }
 
 #favoritesInfo{
-    width: 1150px;
+    width: 95vw;
     margin:auto
 }
 

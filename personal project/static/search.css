@@ -11,7 +11,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+
   }
   
 
@@ -28,10 +28,10 @@ html, body {
 
 #searchbutton{
     position: relative;
-    top: 11.8vh;
+    top: 11.7vh;
     width: 10%;
-    padding-top: 0.6%;
-    padding-bottom: 0.6%;
+    padding-top: 0.65%;
+    padding-bottom: 0.65%;
     border-width:3px ;
     border-left: 0px;
     background-color: red;
@@ -74,7 +74,7 @@ a:hover{
 
 #poster{
     position: relative;
-    left: 2vw;
+    left: 5vw;
     top: 19vh;
 }
 
@@ -83,7 +83,7 @@ a:hover{
     left: 27vw;
     color: red;
     font-size: 7vh;
-    bottom: 49.1vh;
+    bottom: 27vh;
 }
 
 #plot{
@@ -91,44 +91,44 @@ a:hover{
     width: 70vw;
     height: 17.5vh;
     left: 22vw;
-    bottom: 52.6vh  ;
+    bottom: 32vh  ;
 }
 
 #language{
     position: relative;
     left: 57.2vw;
-    bottom: 61.4vh;
+    bottom: 47vh;
 }
 #rating{
     position: relative;
     left: 22vw;
-    bottom: 52.6vh;
+    bottom: 41vh;
 }
 #year{
     position: relative;
     left: 22vw;
-    bottom: 63.1vh;
+    bottom: 47vh;
 }
 #director{
     position: relative;
     left: 57.2vw;
-    bottom: 71.9vh;
+    bottom: 53vh;
 }
 #genre{
     position: relative;
     left: 22vw;
-    bottom: 73.7vh;
+    bottom: 53vh;
 }
 #country{
         position: relative;
         left: 57.2vw;
-        bottom: 82.45vh;
+        bottom: 59vh;
     }
 #actors{
     width: 70vw;
     position: relative;
     left: 22vw;
-    bottom: 82.45vh;
+    bottom: 58vh;
 }
 
 #add{
@@ -138,8 +138,9 @@ a:hover{
     border-radius: 4.38vh;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Eo_circle_red_white_heart.svg/1024px-Eo_circle_red_white_heart.svg.png");
     background-size: cover;
+    bottom: 100vh;
     left: 22vw;
-    bottom: 148.2vh;
+
 }
 
 #add:hover{
