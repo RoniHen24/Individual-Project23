@@ -26,7 +26,7 @@ html, body {
   .inbutton{
     position: relative  ;
     padding: 2vh;
-    top: 15vh;
+    top: 18vh;
     width: 50%;
     border-width:3px ;
     background-color: lightgrey;
@@ -73,7 +73,7 @@ label{
     position: relative;
     right: 13vw;
     top: 8vh;
-    font-size: 20px;
+    font-size: 3.6vh;
 }
 
 #five{
@@ -127,6 +127,5 @@ label{
 a{
     position: relative;
     color: rgb(0, 0, 0);
-    bottom: 3vh;
     font-size: 3.5vh;
 }
